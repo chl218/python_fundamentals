@@ -4,6 +4,7 @@ def banner(message, border='-'):
     print(message)
     print(line)
 
+
 banner("Norwegian Blue")
 banner("Sun, Moon and Stars", "*")
 banner("Sun, Moon and Stars", border="*")

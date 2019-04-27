@@ -9,6 +9,7 @@ Usage:
 import sys
 from urllib.request import urlopen
 
+
 def fetch_words(url):
     """Fetch a list of words from a URL.
 
@@ -49,4 +50,4 @@ def main(url):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1]) # The 0th arg is the module filename
+    main(sys.argv[1])   # The 0th arg is the module filename

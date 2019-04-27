@@ -1,12 +1,12 @@
 def sqrt(x):
-    '''Compute square roots using the method of Heron of Alexandria.
+    """Compute square roots using the method of Heron of Alexandria.
 
     Args:
         x: The number for which the square root is to be computed.
 
     Returns:
         The square root of x.
-    '''
+    """
     guess = x
     i = 0
     try:

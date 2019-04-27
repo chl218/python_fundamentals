@@ -40,7 +40,7 @@ def print_items(items):
         An iterable series of printable items.
     """
     for item in items:
-    	print(item)
+        print(item)
 
 
 def main(url):
